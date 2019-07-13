@@ -157,6 +157,7 @@ ul#nav li a:hover::after {
 .single-hero-item {
     height: 80vh;
     background-size: cover;
+    background-position: center;
 }
 
 .hero-content-area {
