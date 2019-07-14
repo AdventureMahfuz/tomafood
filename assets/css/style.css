@@ -73,6 +73,105 @@ a:focus {
 /*back to top btn end*/
 
 
+/*mobile view start*/
+
+.mobile-view-order-btn a {
+    text-align: center;
+    display: block;
+    background: var(--primary-color);
+    padding: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 35px;
+    border-radius: 30px;
+}
+
+.mobile-view-order-btn {
+    display: none;
+}
+
+.sticky-area-mobile-view {
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    background: var(--primary-color);
+    width: 100%;
+    height: 65px;
+}
+
+.mobile-menu-btn i.fa {
+    font-size: 27px;
+}
+
+.mobile-sticky-bar-common-style {
+    width: 20%;
+    float: left;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.mobile-sticky-bar-common-style i.fa {
+    color: #fff;
+    font-size: 22px;
+}
+
+.mobile-sticky-bar-common-style p {
+    color: #fff;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+    margin-top: -3px;
+}
+
+.sticky-area-mobile-view {
+    display: none;
+}
+
+ul.mobile-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: var(--primary-color);
+    position: fixed;
+    bottom: 65px;
+    right: -100%;
+    z-index: 9999;
+    width: 100%;
+    opacity: 0;
+    overflow: scroll;
+    height: 49%;
+    transition: all .5s;
+}
+
+ul.mobile-menu li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+    transition: all .5s;
+    display: block;
+    padding: 10px 20px;
+}
+
+#close {
+    position: absolute;
+    right: 9px;
+    top: 3px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 2px;
+}
+
+
+/*mobile view end*/
+
+
 /*
 ===================================================================================
 ===============================  FRONT PAGE STYLE START  ==========================
@@ -481,6 +580,11 @@ ul#nav li a:hover::after {
     height: auto;
 }
 
+.sponsor-mobile-thumb {
+    padding-top: 15px;
+    display: none;
+}
+
 .sponsor-site-link a {
     background: var(--secondary-color);
     color: #fff;
@@ -500,6 +604,7 @@ ul#nav li a:hover::after {
 
 .sponsor-excerpt p {
     font-weight: 300;
+    overflow: hidden;
 }
 
 

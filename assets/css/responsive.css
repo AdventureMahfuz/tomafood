@@ -1,19 +1,202 @@
 /*Medium Layout: 1280*/
-@media only screen and (min-width: 992px) and (max-width: 1200px){
-	
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .logo h1 {
+        font-size: 30px;
+    }
+    .hero-content h1 {
+        font-size: 30px;
+        line-height: 50px;
+        padding: 10px 30px;
+    }
+    .hero-order-btn a {
+        font-size: 20px;
+    }
+    .navigate-title h2 {
+        margin: 0 20px;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .single-testimonial {
+        padding: 30px;
+    }
 }
+
 
 /*Tablet Layout: 768px*/
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	
+    .logo h1 {
+        text-align: center;
+    }
+    ul#nav li a {
+        padding: 0 8px;
+    }
+    ul#nav {
+        padding-top: 20px;
+    }
+    .hero-content h1 {
+        font-size: 25px;
+        letter-spacing: 5px;
+        padding: 10px 25px;
+        line-height: 45px;
+    }
+    .hero-order-btn a {
+        font-size: 18px;
+        padding: 5px 20px;
+    }
+    .section-title h1 {
+        margin: 0;
+        font-size: 40px;
+    }
+    .single-steps {
+        margin-bottom: 30px;
+    }
+    .steps-cont {
+        padding-top: 10px;
+    }
+    .steps-cont h4 {
+        margin: 0;
+    }
+    .navigate-title h2 {
+        left: 3%;
+    }
+    .single-testimonial {
+        padding: 15px;
+    }
 }
+
 
 /*Mobile Layout: 320px*/
+
 @media only screen and (max-width: 767px) {
-	
+    /*mobile view start*/
+    .mobile-view-order-btn {
+        display: block;
+    }
+    .sticky-area-mobile-view {
+        display: block;
+        border-top: 1px solid #fff;
+    }
+    /*mobile view end*/
+    .hero-content h1 {
+        font-size: 25px;
+        letter-spacing: 5px;
+        line-height: 40px;
+        padding: 10px 15px;
+    }
+    .hero-order-btn a {
+        font-size: 18px;
+        padding: 5px 15px;
+    }
+    .section-title h1 {
+        margin: 0;
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .steps-cont {
+        padding-top: 0;
+    }
+    .steps-cont h4 {
+        padding-bottom: 0;
+    }
+    .steps-cont p {
+        font-weight: 400;
+    }
+    .single-steps {
+        margin-bottom: 40px;
+    }
+    .navigation-section-title-area .section-title h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .single-navigation-item {
+        width: 100%;
+    }
+    .single-testimonial {
+        margin-bottom: 30px;
+        padding: 40px 25px;
+    }
+    .sponsor-thumb-area {
+        width: 100%;
+        float: initial;
+        margin-right: 0;
+    }
+    .sponsor-thumb {
+        display: none;
+    }
+    .sponsor-mobile-thumb {
+        display: block;
+    }
+    .sponsor-content-area {
+        padding: 0 15px;
+        text-align: center;
+    }
+    .sponsor-site-link a {
+        margin-top: 0;
+    }
+    .sponsor-excerpt p {
+        font-weight: 400;
+    }
+    .sponsor-excerpt {
+        padding: 15px 0;
+    }
+    .address {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .address p {
+        font-size: 22px;
+    }
+    .contact-info {
+        float: initial;
+        text-align: center;
+    }
+    .contact-info p {
+        font-size: 22px;
+    }
+    .copy-right-text p {
+        text-align: center;
+        font-size: 18px;
+    }
+    .social-link a {
+        text-align: center;
+    }
+    .social-link {
+        float: initial;
+        text-align: center;
+    }
+    .back_to_top_area {
+        display: none;
+    }
+    .main-navigation {
+        display: none;
+    }
+    .logo h1 {
+        text-align: center;
+    }
+    section.footer-bottom-section {
+        margin-bottom: 60px;
+    }
+    /*div ordering*/
+    .sponsor-area {
+        display: flex;
+        flex-flow: column;
+    }
+    .sponsor-content-area {
+        order: 1
+    }
+    .sponsor-thumb-area {
+        order: 2;
+        text-align: center;
+    }
 }
 
+
 /*Wide Mobile Layout: 480px*/
+
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
+    .single-navigation-item {
+        width: 50%;
+    }
 }
